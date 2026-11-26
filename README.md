@@ -24,24 +24,38 @@ I'm a CS grad student and the founder of **[Intentioned.tech](https://intentione
 | 🗺️ | **[ProjectedMaps](https://github.com/KoJesko/ProjectedMaps)** | The projection follows the task: a navigation-layer demo that measures distortion live from each projection's Jacobian. |
 | 🔔 | **[plasma-ping-panel](https://github.com/KoJesko/plasma-ping-panel)** | Browse your Discord mentions from the KDE Plasma 6 panel by keyboard. Meta+Shift+D, then j/k and Enter. |
 
+## 🧰 Also worth a look
+
+**🐧 Linux gaming fixes**
+- [stl-yad15-fix](https://github.com/KoJesko/stl-yad15-fix): brings back SteamTinkerLaunch's menus, which broke on Yad 15
+- [ets2-local-radio](https://github.com/KoJesko/ets2-local-radio): ETS2/ATS Local Radio with a native Linux version (native game and Proton/TruckersMP)
+- [CoachNowPlaying](https://github.com/KoJesko/CoachNowPlaying): Linux/Proton build of the coach infotainment plugin, showing system now-playing (MPRIS) and Local Radio songs
+- [ets2-ats-graphics-setup](https://github.com/KoJesko/ets2-ats-graphics-setup): one script to install, switch or remove ReShade, Snowymoon and DLSS for ETS2/ATS, HaulMP included
+
+**🏎️ Mario Kart Wii**
+- [mkw-costume-installer](https://github.com/KoJesko/mkw-costume-installer): installs character mods as Retro Rewind costume slots, with voices that actually play
+- [MKWiiRPC](https://github.com/KoJesko/MKWiiRPC): Discord Rich Presence fork that shows Retro WFC rooms and singleplayer status from WiiCompiled
+
+**🤖 Bots and tools**
+- [boostability-cli](https://github.com/KoJesko/boostability-cli): turns an assignment into a few scheduled sittings you'll actually start, planned by Claude
+- [Pointstreak-Discord-Bot](https://github.com/KoJesko/Pointstreak-Discord-Bot): tracks Pointstreak baseball games and runs prediction polls
+- [Greek-Question-Mark-Game](https://github.com/KoJesko/Greek-Question-Mark-Game): can you tell `;` (U+037E) from `;` (U+003B)? A browser quiz
+
+**⚡ Systems and HPC**
+- [Parallel-Computing-Portfolio](https://github.com/KoJesko/Parallel-Computing-Portfolio): eight projects across shared memory, mesh, torus and hypercube machines. Cannon's algorithm reaches 208× on 256 processors and 8.4 TFLOP/s in CUDA
+- [DGEMM](https://github.com/KoJesko/DGEMM): double-precision matrix multiply in C, with timing and memory-safe setup
+
 <details>
-<summary><b>🧰 More tools and fixes</b></summary>
+<summary><b>🎓 Coursework</b></summary>
 <br>
 
-**Linux gaming**
-- [stl-yad15-fix](https://github.com/KoJesko/stl-yad15-fix): brings back SteamTinkerLaunch's menus on Yad 15
-- [ets2-local-radio](https://github.com/KoJesko/ets2-local-radio): native Linux port of ETS2/ATS Local Radio (native and Proton)
-- [CoachNowPlaying](https://github.com/KoJesko/CoachNowPlaying): Linux/Proton build that adds MPRIS and Local Radio song detection
-- [ets2-ats-graphics-setup](https://github.com/KoJesko/ets2-ats-graphics-setup): one-click ReShade, Snowymoon and DLSS for ETS2/ATS
-- [mkw-costume-installer](https://github.com/KoJesko/mkw-costume-installer): installs Mario Kart Wii character mods as Retro Rewind costume slots, with voices
-
-**Systems and HPC**
-- [Parallel-Computing-Portfolio](https://github.com/KoJesko/Parallel-Computing-Portfolio): CUDA, a 32-core CPU, an 8-core CPU and the C* simulator
-- [DGEMM](https://github.com/KoJesko/DGEMM): naive vs. SIMD double-precision matrix multiply in C
-
-**Misc**
-- [boostability-cli](https://github.com/KoJesko/boostability-cli): breaks an assignment into small daily sittings you'll actually start
+- [cs-final](https://github.com/KoJesko/cs-final): the same inventory report in COBOL, Haskell, Lua and Rust
+- [CIT262_Final_Project](https://github.com/KoJesko/CIT262_Final_Project): comparing scikit-learn and XGBoost classifiers on the UCI Car Evaluation dataset
+- [Visualizations](https://github.com/KoJesko/Visualizations): retail sales analysis with pandas and matplotlib
+- [project3-portfolio](https://github.com/KoJesko/project3-portfolio): React portfolio site with search, tag filters and themes
+- [REST](https://github.com/KoJesko/REST): Flask service with Python and Java clients, all tested
 - [luavectorgame](https://github.com/KoJesko/luavectorgame): LÖVE game for learning vector math
+- [Task-Organizer-Final-Project](https://github.com/KoJesko/Task-Organizer-Final-Project): Java task manager
 
 </details>
 
