@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Ari Kotler (KoJesko): founder of Intentioned.tech, CS grad student, Linux and sim-trucking tool builder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#151026"/>
+    </linearGradient>
+    <linearGradient id="plasma" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.1" cy="1" r="0.55">
+      <stop offset="0" stop-color="#0891b2" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0891b2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="300" rx="18"/></clipPath>
+    <style>
+      .name   { font: 800 64px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; letter-spacing: -1px; }
+      .handle { font: 500 20px ui-monospace, 'SF Mono', 'Cascadia Code', 'Ubuntu Mono', Menlo, monospace; fill: #94a3b8; }
+      .line   { font: 600 26px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #e2e8f0; opacity: 0;
+                animation: cycle 12s infinite both; }
+      .prompt { font: 600 26px ui-monospace, 'SF Mono', 'Cascadia Code', 'Ubuntu Mono', Menlo, monospace; fill: #22d3ee; }
+      .l2 { animation-delay: 3s; } .l3 { animation-delay: 6s; } .l4 { animation-delay: 9s; }
+      @keyframes cycle {
+        0%   { opacity: 0; transform: translateY(8px); }
+        3%   { opacity: 1; transform: translateY(0); }
+        22%  { opacity: 1; transform: translateY(0); }
+        25%  { opacity: 0; transform: translateY(-8px); }
+        100% { opacity: 0; }
+      }
+      .caret { fill: #22d3ee; animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .lane { stroke: #fbbf24; stroke-width: 4; stroke-dasharray: 46 34; stroke-linecap: round;
+              animation: drive 1.2s linear infinite; }
+      @keyframes drive { to { stroke-dashoffset: 80; } }
+      @media (prefers-reduced-motion: reduce) {
+        .line, .lane, .caret { animation: none; }
+        .l1 { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <rect width="1200" height="300" fill="url(#glow1)"/>
+    <rect width="1200" height="300" fill="url(#glow2)"/>
+
+    <!-- road -->
+    <rect y="258" width="1200" height="42" fill="#0a0a12" opacity="0.85"/>
+    <line x1="0" y1="260" x2="1200" y2="260" stroke="#334155" stroke-width="2"/>
+    <line x1="0" y1="298" x2="1200" y2="298" stroke="#334155" stroke-width="2"/>
+    <line class="lane" x1="-80" y1="279" x2="1280" y2="279"/>
+
+    <!-- name -->
+    <text x="70" y="118" class="name" fill="url(#plasma)">Ari Kotler</text>
+    <text x="74" y="152" class="handle">@KoJesko · Linux · systems · sim-trucking</text>
+
+    <!-- cycling taglines -->
+    <text x="74" y="214" class="prompt">❯</text>
+    <g transform="translate(108 214)">
+      <text class="line l1">founder of Intentioned.tech</text>
+      <text class="line l2">CS grad student, parallel computing</text>
+      <text class="line l3">making ETS2/ATS run properly on Linux</text>
+      <text class="line l4">local-first AI and voice tools</text>
+    </g>
+
+    <!-- logo mark, top right: a plasma ring -->
+    <g transform="translate(1040 120)" fill="none" stroke-width="6">
+      <circle r="62" stroke="url(#plasma)" opacity="0.9"/>
+      <circle r="40" stroke="url(#plasma)" opacity="0.5"/>
+      <circle r="18" stroke="url(#plasma)" opacity="0.3"/>
+      <circle r="62" stroke="#ffffff" stroke-opacity="0.9" stroke-dasharray="40 350" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>
